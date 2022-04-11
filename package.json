@@ -1,7 +1,7 @@
 {
-  "name": "TechInterview",
+  "name": "TechnicalInterviewBootstrap",
   "version": "1.0.0",
-  "description": "Technical interview boilerplate",
+  "description": "Config to bootstrap a JavaScript-based technical interview with ESLint and Jest.",
   "scripts": {
     "test": "jest *.test.js",
     "lint": "eslint ./",
