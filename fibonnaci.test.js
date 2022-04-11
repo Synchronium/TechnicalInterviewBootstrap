@@ -1,4 +1,4 @@
-const fib = require('./index');
+const fib = require('./fibonnaci');
 
 describe('fib function', () => {
   it('should calculate fib when n = 6', () => {
