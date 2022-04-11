@@ -1,0 +1,19 @@
+{
+  "name": "TechInterview",
+  "version": "1.0.0",
+  "description": "Technical interview boilerplate",
+  "scripts": {
+    "test": "jest *.test.js",
+    "lint": "eslint ./",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "author": "John Clarke",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "jest": "^27.5.1"
+  }
+}
