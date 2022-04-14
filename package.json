@@ -4,6 +4,7 @@
   "description": "Config to bootstrap a JavaScript-based technical interview with ESLint and Jest.",
   "scripts": {
     "test": "jest *.test.js",
+    "test:watch": "npm run test -- --watch",
     "lint": "eslint ./",
     "lint:fix": "npm run lint -- --fix"
   },
