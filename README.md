@@ -14,6 +14,6 @@ When everything has finished installing, you can create new JS files and test fi
 
 ESLint is set up using the [AirBnB style guide](https://github.com/airbnb/javascript), and can be run via `npm run lint` to show linting errors or `npm run lint:fix` to attempt to automatically fix them.
 
-Jest can be run via `npm run test` and will run any tests within `.test.js ` files. You can also run jest in watch mode via `npm run test`, which makes repeated testing faster.
+Jest can be run via `npm run test` and will run any tests within `.test.js ` files. You can also run jest in watch mode via `npm run test:watch`, which makes repeated testing faster.
 
 If you don't care about testing, just run your JS files in the usual way via `node file.js`
